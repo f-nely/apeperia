@@ -81,23 +81,23 @@
     margin-bottom: 1rem;
 }
 
-.cartao--start {
+.cartao___start {
     color: var(--planos-cartao-start);
 }
 
-.cartao--ultra {
+.cartao___ultra {
     color: var(--planos-cartao-ultra);
 }
 
-.cartao--mega {
+.cartao___mega {
     color: var(--planos-cartao-mega);
 }
 
-.cartao__botao--start {
+.cartao__botao___start {
     border-color: var(--planos-cartao-start);
 }
 
-.cartao__botao--ultra {
+.cartao__botao___ultra {
     border-color: var(--planos-cartao-ultra);
 }
 
