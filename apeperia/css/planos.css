@@ -101,12 +101,24 @@
     border-color: var(--planos-cartao-ultra);
 }
 
-.cartao__botao--mega {
+.cartao__botao___mega {
     border-color: var(--planos-cartao-mega);
 }
 
 @media screen and (min-width: 768px) {
     .cartao {
         max-width: 400px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .planos__cartoes {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .cartao {
+        max-width: 300px;
     }
 }
